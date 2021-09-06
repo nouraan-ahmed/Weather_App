@@ -6,5 +6,5 @@ This project requires you to create an asynchronous web app that uses Web API an
 ## Output
 
 <div align="center">
-<img src="https://github.com/nouraan-ahmed/Weather_App_Udacity_Professional/blob/master/website/images/app.png" width="350" height="350" >  
+<img src="https://github.com/nouraan-ahmed/Weather_App_Udacity_Professional/blob/master/website/images/app.png" width="750" height="450" >  
 </div>
