@@ -1,0 +1,29 @@
+{
+  "name": "weather_app_udacity_professional",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "main": "server.js",
+  "scripts": {
+    "test": "Test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nouraan-ahmed/Weather_App_Udacity_Professional.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Nouran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nouraan-ahmed/Weather_App_Udacity_Professional/issues"
+  },
+  "homepage": "https://github.com/nouraan-ahmed/Weather_App_Udacity_Professional#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  }
+}

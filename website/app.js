@@ -1,6 +1,6 @@
 /* Global Variables */
 const baseURL='http://api.openweathermap.org/data/2.5/weather?zip=';
-const Key = ',us&appid=1021aa21e05ea2ab9fe0d880b68e959c';
+const Key = ',us&units=metric&appid=1021aa21e05ea2ab9fe0d880b68e959c';
 const generate = document.getElementById('generate');
 const date= document.getElementById('date');
 const temp= document.getElementById('temp');
@@ -18,8 +18,8 @@ function clickedGenerateHandler(e){
     getWeather(baseURL, zipCode, Key)
     .then(function (data){
         date.innerHTML = "Date : "+newDate;
-        temp.innerHTML = "Temp : "+data.main.temp;
-        content.innerHTML = "Content :"+ Content;
+        temp.innerHTML = "Temp : "+data.main.temp +" C";
+        content.innerHTML = "Feeling :"+ Content;
         entryHolder.classList.add('entryHolder');
         postWeather('/add',{
             date:newDate,
